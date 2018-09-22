@@ -489,7 +489,7 @@ header{
 		font-size: 190%;
 	}
 	.content-first-container p{
-		font-size: 100%;
+		font-size: 200%;
 		font-variant: small-caps;
 		font-weight: 600;
 		text-transform: none;
@@ -507,6 +507,7 @@ header{
 	}
 	.btn-class{
 		margin: 1%;
+		font-size: 200%;
 	}
     #menu-1 {
     	display: block;
