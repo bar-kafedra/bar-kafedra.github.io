@@ -485,16 +485,16 @@ header{
 	}
 	
 	.content-first-container {
-		width: 80%;
-		font-size: 190%;
-	}
-	.content-first-container p{
+		width: 80%;}
+		.content-first-container h1{
+    	font-size: 400%;}
+		.content-first-container p{
 		font-size: 200%;
 		font-variant: small-caps;
 		font-weight: 600;
 		text-transform: none;
 		word-spacing: 5px;
-	}
+		}
 
 	body {
 		background-size: cover;
