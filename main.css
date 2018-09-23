@@ -505,7 +505,8 @@ header{
 
 	body {
 		background-image: url(img/bg_mobile.jpg);
-		background-size: cover;
+		background-size: contain;
+		background-repeat: repeat-y;
 		background-attachment: fixed;
 		background-position: center;
 		padding: 0;
