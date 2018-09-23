@@ -485,11 +485,12 @@ header{
 	}
 	
 	.content-first-container {
-		width: 80%;}
+		width: 80%;
+		font-size: 200%;}
 		.content-first-container h1{
-    	font-size: 400%;}
+    	font-size: 300%;}
 		.content-first-container p{
-		font-size: 200%;
+		font-size: 100%;
 		font-variant: small-caps;
 		font-weight: 600;
 		text-transform: none;
@@ -511,7 +512,6 @@ header{
 	}
     #menu-1 {
     	display: block;
-    	padding-top:20%;
     }
 	.menu-container {
         display: block;
@@ -554,6 +554,8 @@ header{
 
 	.map-mobile {
 		display: block;
+		width: 90%;
+		margin: 0 auto;
 	}
 
 	.map {
