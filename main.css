@@ -234,9 +234,12 @@ header{
 
 #menu-2 {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
-	display: 0;
+	width: 90%;
+	margin: 0 auto;
 }
+
 
 /*Second Container*/
 .second-container {

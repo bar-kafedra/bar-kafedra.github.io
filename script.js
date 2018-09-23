@@ -15,33 +15,33 @@ $("#menu-button-active").click(function () {
          }
 });
 
-$("#menushawrma").show("slow");
-$("#menupancakes").hide(1);
+$("#menu-1").show("slow");
+$("#menu-2").hide(1);
 
 
-$("#shawrma").click(function () {
-  if (!($("#menupancakes").is(":animated")))
+$("#button-1").click(function () {
+  if (!($("#menu-2").is(":animated")))
   {
-  	if ($("#menushawrma").is(":hidden"))
+  	if ($("#menu-1").is(":hidden"))
   {
-  	$("#menushawrma").slideDown("slow");
+  	$("#menu-1").slideDown("slow");
   }
-  if (!($("#menupancakes").is(":hidden")))
+  if (!($("#menu-2").is(":hidden")))
   		{
-  			$("#menupancakes").slideUp("slow");
+  			$("#menu-2").slideUp("slow");
   		}
   }
 });
-$("#pancakes").click(function () {
-  if (!($("#menushawrma").is(":animated")))
+$("#button-2").click(function () {
+  if (!($("#menu-1").is(":animated")))
   {
-  	if ($("#menupancakes").is(":hidden"))
+  	if ($("#menu-2").is(":hidden"))
   {
-  	$("#menupancakes").slideDown("slow");
+  	$("#menu-2").slideDown("slow");
   }
-  if (!($("#menushawrma").is(":hidden")))
+  if (!($("#menu-1").is(":hidden")))
   		{
-  			$("#menushawrma").slideUp("slow");
+  			$("#menu-1").slideUp("slow");
   		}
   }
 });
