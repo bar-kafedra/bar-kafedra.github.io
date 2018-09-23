@@ -507,6 +507,8 @@ header{
 		background-size: 180% 100%;
 		background-attachment: fixed;
 		background-position: center;
+		padding: 0;
+		font-size: 100%;
 	}
 	.menu{
 		width: 100%;
