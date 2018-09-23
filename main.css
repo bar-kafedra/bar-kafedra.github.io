@@ -506,6 +506,7 @@ header{
 	body {
 		background-size: cover;
 		padding: 0;
+		font-size: 100%;
 	}
 	.menu{
 		width: 100%;
