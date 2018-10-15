@@ -1,3 +1,8 @@
+
+
+
+
+
 $("#menu-button-notactive").click(function () {
 	     if (!($("#menu-gamburger").is(":animated")))
 	     {
@@ -15,14 +20,17 @@ $("#menu-button-active").click(function () {
          }
 });
 
-$("#menu-1").show("slow");
-$("#menu-2").hide(1);
-$("#menu-3").hide(1);
-$("#menu-4").hide(1);
-$("#menu-5").hide(1);
+$("#menu-1").show();
+$("#menu-2").hide();
+$("#menu-3").hide();
+$("#menu-4").hide();
+$("#menu-5").hide();
 
 
-$("#button-1").click(function () {
+if ($(window).width() >= 992){
+      	
+
+		$("#button-1").click(function () {
   if (!($("#menu-2").is(":animated")||$("#menu-3").is(":animated")||$("#menu-4").is(":animated")||$("#menu-5").is(":animated")))
   {
   	if ($("#menu-1").is(":hidden"))
@@ -155,7 +163,156 @@ $("#button-5").click(function () {
   		}
   
   }
+		});
+
+
+
+
+      	} else{
+         
+
+$("#button-1").click(function () {
+  if (!($("#menu-2").is(":animated")||$("#menu-3").is(":animated")||$("#menu-4").is(":animated")||$("#menu-5").is(":animated")))
+  {
+  	if ($("#menu-1").is(":hidden"))
+  {
+  	$("#menu-1").slideDown(0);
+  }
+  if (!($("#menu-2").is(":hidden")))
+  		{
+  			$("#menu-2").slideUp(0);
+  		}
+  if (!($("#menu-3").is(":hidden")))
+  		{
+  			$("#menu-3").slideUp(0);
+  		}
+  if (!($("#menu-4").is(":hidden")))
+  		{
+  			$("#menu-4").slideUp(0);
+  		}
+  if (!($("#menu-5").is(":hidden")))
+  		{
+  			$("#menu-5").slideUp(0);
+  		}
+  
+  }
 });
+
+$("#button-2").click(function () {
+  if (!($("#menu-1").is(":animated")||$("#menu-3").is(":animated")||$("#menu-4").is(":animated")||$("#menu-5").is(":animated")))
+  {
+  	if ($("#menu-2").is(":hidden"))
+  {
+  	$("#menu-2").slideDown(0);
+  }
+  if (!($("#menu-1").is(":hidden")))
+  		{
+  			$("#menu-1").slideUp(0);
+  		}
+  if (!($("#menu-3").is(":hidden")))
+  		{
+  			$("#menu-3").slideUp(0);
+  		}
+  if (!($("#menu-4").is(":hidden")))
+  		{
+  			$("#menu-4").slideUp(0);
+  		}
+  if (!($("#menu-5").is(":hidden")))
+  		{
+  			$("#menu-5").slideUp(0);
+  		}
+  
+  }
+});
+
+$("#button-3").click(function () {
+  if (!($("#menu-1").is(":animated")||$("#menu-2").is(":animated")||$("#menu-4").is(":animated")||$("#menu-5").is(":animated")))
+  {
+  	if ($("#menu-3").is(":hidden"))
+  {
+  	$("#menu-3").slideDown(0);
+  }
+  if (!($("#menu-1").is(":hidden")))
+  		{
+  			$("#menu-1").slideUp(0);
+  		}
+  if (!($("#menu-2").is(":hidden")))
+  		{
+  			$("#menu-2").slideUp(0);
+  		}
+  if (!($("#menu-4").is(":hidden")))
+  		{
+  			$("#menu-4").slideUp(0);
+  		}
+  if (!($("#menu-5").is(":hidden")))
+  		{
+  			$("#menu-5").slideUp(0);
+  		}
+  
+  }
+});
+
+$("#button-4").click(function () {
+  if (!($("#menu-1").is(":animated")||$("#menu-2").is(":animated")||$("#menu-3").is(":animated")||$("#menu-5").is(":animated")))
+  {
+  	if ($("#menu-4").is(":hidden"))
+  {
+  	$("#menu-4").slideDown(0);
+  }
+  if (!($("#menu-1").is(":hidden")))
+  		{
+  			$("#menu-1").slideUp(0);
+  		}
+  if (!($("#menu-2").is(":hidden")))
+  		{
+  			$("#menu-2").slideUp(0);
+  		}
+  if (!($("#menu-3").is(":hidden")))
+  		{
+  			$("#menu-3").slideUp(0);
+  		}
+  if (!($("#menu-5").is(":hidden")))
+  		{
+  			$("#menu-5").slideUp(0);
+  		}
+  
+  }
+});
+
+$("#button-5").click(function () {
+  if (!($("#menu-1").is(":animated")||$("#menu-2").is(":animated")||$("#menu-3").is(":animated")||$("#menu-4").is(":animated")))
+  {
+  	if ($("#menu-5").is(":hidden"))
+  {
+  	$("#menu-5").slideDown(0);
+  }
+  if (!($("#menu-1").is(":hidden")))
+  		{
+  			$("#menu-1").slideUp(0);
+  		}
+  if (!($("#menu-2").is(":hidden")))
+  		{
+  			$("#menu-2").slideUp(0);
+  		}
+  if (!($("#menu-4").is(":hidden")))
+  		{
+  			$("#menu-4").slideUp(0);
+  		}
+  if (!($("#menu-3").is(":hidden")))
+  		{
+  			$("#menu-3").slideUp(0);
+  		}
+  
+  }
+		});
+
+
+
+      	}
+
+
+ 
+  
 
 $(function(){
         $("a[href^='#']").click(function(){
