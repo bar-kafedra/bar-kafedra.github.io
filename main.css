@@ -1,8 +1,6 @@
 @media screen and (max-width: 1280px) { 
 }
-@media screen and (max-width: 1140px) {
 
-}
 
 
 body{
@@ -100,7 +98,7 @@ height: 100%;
 
 .first-container {
 	background-color: rgba(40,40,40,.4);
-	background-size: 100vw auto;
+	background-size: 100% auto;
 	background-image: url(img/bg.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -407,9 +405,10 @@ height: 100%;
 	display: none;
 	}
 
+
 	.first-container {
 		height: auto;
-		background-size: 200vw auto;
+		background-image: none;
 	}
 	.content-second-container {
 		display: block;
@@ -584,4 +583,10 @@ height: 100%;
 
     #menu-button-notactive {
     	display: block;    }
+}
+
+@media screen and (max-width: 1140px) {
+ .first-container {
+ 	background-size: 100% 100%;
+ }
 }
