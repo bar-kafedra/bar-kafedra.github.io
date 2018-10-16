@@ -385,18 +385,18 @@ height: 100%;
 
 @media screen and (max-width: 992px) {
     header {
-    	height: 100%;
+    	height: auto;
     }
 
     .logo {
-    	margin: 0 24% 0 0;
-    	height: 80%;
+    	margin: 0 21% 0 0;
+    	height: auto;
     }
 
-    .logo a {
-    	font-size: 400%;
 
-    }
+    #logo {
+	height: auto;
+	}
 
     .header-container{
 	width: 90%;
