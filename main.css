@@ -100,7 +100,7 @@ height: 100%;
 
 .first-container {
 	background-color: rgba(40,40,40,.4);
-	background-size: auto 100%;
+	background-size: 100vw auto;
 	background-image: url(img/bg.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -407,9 +407,9 @@ height: 100%;
 	display: none;
 	}
 
-
 	.first-container {
 		height: auto;
+		background-size: 200vw auto;
 	}
 	.content-second-container {
 		display: block;
