@@ -271,15 +271,15 @@ height: 100%;
 	width: auto;
 }
 .info-map h1{
-	color:#fff;
+	color:#ff3600;
 }
 .info-map p{
-	color:#fff;
+	color:#ff3600;
 }
 
 /*third Container*/
 .third-container {
-	background-color: rgb(99,99,99);
+	background-color: rgb(55,55,55);
 	background-size: 100% auto;
 }
 
@@ -293,12 +293,17 @@ height: 100%;
 }
 .content-third-container a{
 	color: #fff;
+transition: all 0.3s ease-in-out;
+}
+.content-third-container a:hover{
+	color: #000;
+transition: all 0.3s ease-in-out;
 }
 .content-third-container p{
-	color: #000;
+	color: #ff3600;
 }
 .content-third-container h3{
-	color: #fff;
+	color: #ff3600;
 }
 .contacts {
 	width: 100%;
